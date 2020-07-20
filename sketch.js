@@ -7,7 +7,6 @@ const Body = Matter.Body;
 
 function preload()
 {
-	
 }
 
 function setup() {
@@ -38,6 +37,7 @@ function draw() {
  dustbinBottom.display();
  ball.display();
  ground.display();
+
 }
 function keyPressed(){
 	if(keyCode===UP_ARROW){
